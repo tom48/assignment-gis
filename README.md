@@ -20,7 +20,9 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 Fill in (either in English, or in Slovak):
 
-**Application description**: Tento projekt sa zaoberá zvýrazňovaním prúdov riek a potokov na mape, podľa výberu parametrov od používateľa. Pri tomto zvýrazňovaní môžu nastať 3 hlavné scenáre. 
+**Application description**: Tento projekt sa zaoberá zvýrazňovaním prúdov riek a potokov na mape, podľa výberu parametrov od používateľa. Vpracovaný bol v prostredí WebStorm, cez ktorý je možné ho aj ľahko spustiť, stačí predtým len zavolať `npm install` cez cmd v priečinku kde sa nachádzajú zdrojáky (tam kde sú `app.js` a `package.json`). 
+
+Pri zvýrazňovaní prúdov riek a potokov môžu nastať 3 hlavné scenáre. 
 
 1. scenár - používateľ zadá štartovaciu a cieľovú pozíciu a na mape sa zvýrazní najkratšia cesta medzi týmito dvoma bodmi, zložená s prúdov riek a potokov. 
 
