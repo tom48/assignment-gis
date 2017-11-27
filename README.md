@@ -20,8 +20,14 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 Fill in (either in English, or in Slovak):
 
-**Application description**: `<fill in>`
+**Application description**: Tento projekt sa zaoberá zvýrazňovaním prúdov riek a potokov na mape, podľa výberu parametrov od používateľa. Pri tomto zvýrazňovaní môžu nastať 3 hlavné scenáre. 
 
-**Data source**: `<fill in>`
+1. scenár - používateľ zadá štartovaciu a cieľovú pozíciu a na mape sa zvýrazní najkratšia cesta medzi týmito dvoma bodmi, zložená s prúdov riek a potokov. 
 
-**Technologies used**: `<fill in>`
+2. scenár - používateľ zadá štartovaciu pozíciu a vzdialenosť v metroch a na mape sa zvýraznia všetky rieky a potoky, do ktorých sa dá dostať zo štartovacej pozície pri zadanej vzdialenosti.
+
+3. scenár - používateľ zadá štartovaciu pozíciu a čas v sekundách a na mape sa zvýraznia všetky rieky a potoky, do ktorých sa dá dostať zo štartovacej pozície pri zadanom časovom úseku.
+
+**Data source**: [Open Street Maps](https://www.openstreetmap.org/)
+
+**Technologies used**: JavaScript / Node.js / Express, Html / Jade, Css, JQuery
