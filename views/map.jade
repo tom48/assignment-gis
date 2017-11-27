@@ -1,0 +1,14 @@
+extends layout
+block content
+    h1=title
+    button(onclick='remove_all_marks()', class='btn_rm') Remove all marks
+    div(class='d_time') Time [seconds]:
+    input(type='text', class='in_time', id='in_time')
+    button(onclick='calculate_with_time()', class='btn_ct') GO
+    div(class='d_distance') Distance [meters]:
+    input(type='text', class='in_distance', id='in_dist')
+    button(onclick='calculate_with_distance()', class='btn_cd') GO
+    #map
+    script.
+
+

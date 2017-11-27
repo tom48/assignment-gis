@@ -1,0 +1,45 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.btn_rm {
+  margin-right: 10px;
+}
+
+.in_time {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.d_time {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.in_distance {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.d_distance {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.btn_ct {
+  margin-right: 20px;
+}
+
+.btn_cd {
+  margin-right: 20px;
+}
+
+#map {
+  width: 100%;
+  height: 600px;
+}
